@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="lib" path="C:/Users/bobas/Desktop/다른 서버 파일/SKY/plugins/CS-CoreLib v1.5.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bobas/Desktop/다른 서버 파일/SKY/plugins/SlimeFun K-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bobas/Desktop/다른 서버 파일/SKY/spigot-1.12.2.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

@@ -1,0 +1,10 @@
+name: ExoticGarden
+version: 3.5
+authors: [crston, motosolar]
+description: A Slimefun Addon that adds new Plants and dishes to the game
+website: http://TheBusyBiscuit.github.io/
+
+main: me.mrCookieSlime.ExoticGarden.ExoticGarden
+
+depend: [Slimefun]
+softdepend: [CS-CoreLib]
