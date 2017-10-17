@@ -15,11 +15,11 @@ public class Tree {
 	String sapling, schematic, texture, fruit;
 	List<Material> soils;
 	
-	public Tree(String name, String fruit, String texture, Material... soil) {
-		this.sapling = name + "_묘묙";
-		this.schematic = name + "_TREE";
+	public Tree(String name, String fruitName, String texture, Material... soil) {
+		this.sapling = fruitName + "_묘묙";
+		this.schematic = fruitName + "_나무";
 		this.texture = texture;
-		this.fruit = fruit;
+		this.fruit = fruitName;
 		this.soils = Arrays.asList(soil);
 	}
 	

@@ -1434,12 +1434,12 @@ public class ExoticGarden extends JavaPlugin {
 			}
 		}
 		
-		InputStream stream = Tree.class.getResourceAsStream("schematics/" + id + "_TREE.schematic");
+		InputStream stream = Tree.class.getResourceAsStream("schematics/" + fruitName + "_나무.schematic");
 	    OutputStream out = null;
 	    int read;
 	    byte[] buffer = new byte[4096];
 	    try {
-	        out = new FileOutputStream(new File("plugins/ExoticGarden/" + id + "_TREE.schematic"));
+	        out = new FileOutputStream(new File("plugins/ExoticGarden/" + fruitName + "_나무.schematic"));
 	        while ((read = stream.read(buffer)) > 0) {
 	            out.write(buffer, 0, read);
 	        }
